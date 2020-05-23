@@ -1,6 +1,6 @@
 {
   "name": "jmart-pinipig-client-react-starter",
-  "desciption":"Pinipig Client (React) ",
+  "desciption": "Pinipig Client (React) ",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,5 +1,5 @@
-# JMART Pinipig Client (REACT edition)
-This is a client App starter that is based on REACT
+# JMART Pinipig Client (REACT MUI edition)
+This is a client App starter that is based on REACT usinf Material UI Components
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Server Back-end is [Pinipig](https://github.com/jmdisuanco/pinipig)
