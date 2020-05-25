@@ -3,8 +3,10 @@ import { Button } from '@material-ui/core'
 import logo from './logo.svg'
 import './App.css'
 import config from './config'
-import service from './pinipig/service'
-let infoService = service(`${config.host}/info.json`)
+import pinipigClient from 'pinipig-client'
+const { service } = pinipigClient
+
+let infoService = service.rest(`${config.host}/info.json`)
 
 export const Online = (props) => {
   let { result, app, version } = props.info
@@ -40,10 +42,6 @@ function App() {
 
     pullInfo()
   }, [])
-
-  useEffect(() => {
-    console.log(info)
-  })
 
   return (
     <div className="App">
